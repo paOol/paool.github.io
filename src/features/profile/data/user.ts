@@ -5,7 +5,7 @@ export const USER: User = {
   lastName: "Kim",
   displayName: "Paul Kim",
   username: "paOol",
-  bio: "Creating with code. Small details matter.",
+  bio: "Building the infrastructure for fully autonomous AI Agents.",
   flipSentences: [
     "Full Stack Engineer.",
     "Web3 Engineer",
@@ -27,15 +27,9 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Paul Kim — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, World! I am Paul Kim, a Senior Full Stack Engineer with over 15 years of experience in building scalable web applications and services. I'm very capable of shipping products from scratch and wearing all the hats necessary to do it solo.
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
-
-One of my key projects, [ZaDark](https://zadark.com), enhances the Zalo experience on PC and Web, surpassing 80,000 downloads on [SourceForge](https://sourceforge.net/projects/zadark) and 15,000 active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) since 2022.
-
-I'm also the creator of [React Wheel Picker](https://react-wheel-picker.paul.agentis.solutions) — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. It has earned 300+ stars on [GitHub](https://github.com/ncdai/react-wheel-picker) and was selected for [Vercel Open Source Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort.
-
-Let's connect and collaborate!
+It's fair to say I'm an expert in web3/blockchain technologies, however I have had an interest in AI/ML for many years as well. I believe the future of technology lies within fully autonomous AI agents that will 100x human productivity. In order to achieve this, it will require a deep understanding of both AI and web3 technologies, which is why I have been focusing my efforts on mastering both fields.
   `,
   avatar: "https://avatars.githubusercontent.com/u/5941389?v=4",
   ogImage: "https://avatars.githubusercontent.com/u/5941389?v=4",
