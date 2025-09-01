@@ -1,0 +1,169 @@
+import type { Project } from "../types/projects";
+
+export const PROJECTS: Project[] = [
+  {
+    id: "zyra",
+    title: "Zyra",
+    period: {
+      start: "11.2025",
+    },
+    link: "https://zyra.agentis.solutions",
+    skills: [
+      "AI",
+      "CRM",
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "Automation",
+      "Lead Management",
+    ],
+    description: `AI-native CRM system that acts as an automated setter and lead follow up.
+- 🤖 Automated lead qualification and scoring
+- 📧 Intelligent follow-up sequences
+- 🎯 AI-powered lead prioritization
+- 💬 Natural language interaction with CRM data
+- 📊 Predictive analytics for sales forecasting`,
+    isExpanded: true,
+  },
+  {
+    id: "argo",
+    title: "Argo",
+    period: {
+      start: "10.2025",
+    },
+    link: "#",
+    skills: [
+      "AI Agent",
+      "Data Analytics",
+      "Node.js",
+      "TypeScript",
+      "S2K Platform",
+      "Gas Station Analytics",
+    ],
+    description: `AI agent that works with the S2K platform to fetch real gas station store data and build charts.
+- 📊 Real-time data visualization for gas station metrics
+- 🛢️ Fuel margin analysis and tracking
+- ☕ Hot beverage sales analytics
+- 🎯 Natural language queries for business insights
+- 📈 Automated report generation`,
+  },
+  {
+    id: "final-say",
+    title: "Final Say",
+    period: {
+      start: "09.2025",
+    },
+    link: "https://finalsay.dev",
+    skills: [
+      "AI",
+      "Web3",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Decision Platform",
+    ],
+    description: `Platform where users present the AI council with opposing opinions and AIs determine the outcome.
+- 🤖 AI council with multiple perspectives
+- ⚖️ Balanced debate analysis
+- 🗳️ Transparent decision-making process
+- 💬 Community-driven topics
+- 📊 Historical decision tracking`,
+  },
+  {
+    id: "robocash",
+    title: "Robocash",
+    period: {
+      start: "08.2025",
+    },
+    link: "https://agentis.solutions",
+    skills: [
+      "Web3",
+      "AI Agents",
+      "402 Protocol",
+      "MCP Server",
+      "React",
+      "TypeScript",
+      "Stablecoins",
+      "Payment Infrastructure",
+    ],
+    description: `Payments infrastructure for AI agents - a 402 compliant protocol enabling AI agents to pay for API services using web3 stablecoins.
+- 💳 402 Payment Required protocol implementation
+- 🤖 AI agent payment automation
+- 💰 Web3 stablecoin integration
+- 📦 MCP server for agent connectivity
+- ⚛️ React package for easy integration
+- 🔐 Secure API service monetization`,
+  },
+  {
+    id: "weird-frens",
+    title: "Weird Frens",
+    period: {
+      start: "06.2023",
+      end: "12.2023",
+    },
+    link: "https://weirdfrens.com",
+    skills: [
+      "NFT",
+      "DNFT",
+      "Solidity",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Smart Contracts",
+      "Web3",
+    ],
+    description: `A DNFT (Dynamic NFT) full stack project with novel glitch mechanics and custom Marketplace smart contracts.
+- 🎨 Dynamic NFTs with evolving traits
+- 🔀 Novel glitch mechanics for trait mutations
+- 🏪 Custom marketplace smart contracts
+- 💎 Rarity system and trait combinations
+- 🎮 Interactive NFT experiences`,
+  },
+  {
+    id: "crypto-yelp",
+    title: "Crypto Yelp",
+    period: {
+      start: "01.2023",
+      end: "05.2023",
+    },
+    link: "#",
+    skills: [
+      "Web3",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Community Platform",
+      "Cryptocurrency",
+    ],
+    description: `The Yelp of cryptocurrencies - a platform for discovering and reviewing digital assets.
+- ⭐ Community ratings and reviews for tokens
+- 🔍 Comprehensive token search and discovery
+- 📊 Token metadata (PoW vs PoS, supply metrics)
+- 💰 Real-time price tracking
+- 📈 Circulating and total supply data
+- 👥 Community-driven insights`,
+  },
+  {
+    id: "learnbitcoin-cash",
+    title: "LearnBitcoin.cash",
+    period: {
+      start: "06.2022",
+      end: "12.2022",
+    },
+    link: "#",
+    skills: [
+      "Bitcoin Cash",
+      "Faucet",
+      "Education",
+      "React.js",
+      "Node.js",
+      "Web3",
+    ],
+    description: `World's first faucet for Bitcoin Cash and educational platform about BCH history.
+- 💧 First BCH faucet implementation
+- 📚 Educational content about Bitcoin Cash
+- 📜 History of Bitcoin Cash fork
+- 🎓 Interactive learning modules
+- 💰 Free BCH distribution for learners`,
+  },
+];

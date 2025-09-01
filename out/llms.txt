@@ -1,0 +1,7 @@
+# paul.agentis.solutions
+
+> A minimal portfolio to showcase my work as a Design Engineer.
+
+- [About](https://yourname.com/about.md): A quick intro to me and how to connect.
+- [Experience](https://yourname.com/experience.md): Highlights from my career and key roles I've taken on.
+- [Projects](https://yourname.com/projects.md): Selected projects that show my skills and creativity.
