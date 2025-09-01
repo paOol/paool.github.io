@@ -43,12 +43,12 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Build Next.js site
         run: pnpm run build:static
         env:
-          NEXT_PUBLIC_BASE_PATH: ""
+          NODE_ENV: production
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
